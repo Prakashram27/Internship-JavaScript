@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script >
+        
+
+        function dom(){
+            var day3 = document.getElementById("day3");
+        console.log(day3)
+        }
+
+        if(document.readyState === "loading"){
+            document.addEventListener("DOMContentLoaded", dom)
+
+        }
+        else{
+            dom();
+        }
+
+        
+    </script>
+    <script type="module" src="./day3main.js"></script>
+</head>
+<body>
+    <h1 style="text-align: center;"id="day3">DOMContentLoaded Event</h1>
+</body>
+</html>
