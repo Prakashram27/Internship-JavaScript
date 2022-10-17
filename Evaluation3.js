@@ -189,5 +189,21 @@ let plant2 = new plant('Hibiscus',"Mutabilllis");
 console.log(plant2.toString());
 
 
+// sum
+let obj1 = {
+  a : "abc.aaaa",
+  b: "def.bbbb",
+  c:"ccc"
+}
+
+let word1 = obj1.a.split(".")
+obj1.a = word1[1]
+console.log(obj1)
+
+
+let word2 = obj1.b.split(".")
+obj1.b =  word2[1]
+console.log(obj1)
+
 
 
